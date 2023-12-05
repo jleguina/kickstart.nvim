@@ -198,7 +198,7 @@ require('lazy').setup({
   
       return {
         options = {
-          theme = "auto",
+          theme = "onedark",
           globalstatus = true,
           disabled_filetypes = { statusline = { "dashboard", "alpha", "starter" } },
         },
