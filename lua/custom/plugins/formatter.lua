@@ -8,6 +8,9 @@ return {
     -- [[ Configure Formatter ]]
     -- Provides the Format, FormatWrite, FormatLock, and FormatWriteLock commands
     config = function()
+        -- Utilities for creating configurations
+        local util = require "formatter.util"
+
         require("formatter").setup {
             -- All formatter configurations are opt-in
             filetype = {
