@@ -1,4 +1,9 @@
 return {
     'mfussenegger/nvim-lint',
-    python = {"ruff"}
+    config = function ()
+        require('lint').linters_by_ft = {
+            python = {'ruff'}
+        }
+        
+    end
 }
