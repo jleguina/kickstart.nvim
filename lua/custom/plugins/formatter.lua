@@ -15,14 +15,12 @@ return {
             log_level = vim.log.levels.WARN,
             -- All formatter configurations are opt-in
             filetype = {
-                -- Formatter configurations for filetype "lua" go here
+                -- Formatter configurations for filetype "python" go here
                 -- and will be executed in order
                 python = {
                     -- "formatter.filetypes.python" defines default configurations for the
                     -- "python" filetype
-                    require("formatter.filetypes.python").isort,
-                    require("formatter.filetypes.python").black,
-                    require("formatter.filetypes.python").autoflake,
+                    require("formatter.filetypes.python")
                 },
 
                 -- Use the special "*" filetype for defining formatter configurations on
