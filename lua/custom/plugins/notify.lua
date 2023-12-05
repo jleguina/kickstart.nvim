@@ -2,6 +2,6 @@ return {
      'rcarriga/nvim-notify',
      config = function()
          vim.notify = require('notify')
-         require("notify")("My super important message")
+         require("notify")("Welcome back Javier!")
      end
 }
