@@ -2,9 +2,7 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-{
-    'mhartington/formatter.nvim'
-}
+{'mhartington/formatter.nvim'}
 
 -- [[ Configure Formatter ]]
 -- Utilities for creating configurations
