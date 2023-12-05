@@ -3,5 +3,10 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-    'sbdchd/neoformat'
+    'sbdchd/neoformat',
+    -- Add let g:neoformat_run_all_formatters = 1
+
+    config = function()
+        vim.g.neoformat_run_all_formatters = 1
+    end
 }
