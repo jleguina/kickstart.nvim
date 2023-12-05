@@ -23,7 +23,7 @@ return {
                     require("formatter.filetypes.python").isort,
                     require("formatter.filetypes.python").black,
                     require("formatter.filetypes.python").autoflake,
-                }
+                },
 
                 -- Use the special "*" filetype for defining formatter configurations on
                 -- any filetype
