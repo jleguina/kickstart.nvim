@@ -18,19 +18,19 @@ return {
                 -- Formatter configurations for filetype "lua" go here
                 -- and will be executed in order
                 python = {
-                -- "formatter.filetypes.python" defines default configurations for the
-                -- "python" filetype
-                require("formatter.filetypes.python").isort,
-                require("formatter.filetypes.python").black
-                require("formatter.filetypes.python").autoflake
+                    -- "formatter.filetypes.python" defines default configurations for the
+                    -- "python" filetype
+                    require("formatter.filetypes.python").isort,
+                    require("formatter.filetypes.python").black,
+                    require("formatter.filetypes.python").autoflake,
                 }
 
                 -- Use the special "*" filetype for defining formatter configurations on
                 -- any filetype
                 ["*"] = {
-                -- "formatter.filetypes.any" defines default configurations for any
-                -- filetype
-                require("formatter.filetypes.any").remove_trailing_whitespace
+                    -- "formatter.filetypes.any" defines default configurations for any
+                    -- filetype
+                    require("formatter.filetypes.any").remove_trailing_whitespace,
                 }
             }
         }
