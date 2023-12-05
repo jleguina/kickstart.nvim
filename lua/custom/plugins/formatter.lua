@@ -27,8 +27,6 @@ require("formatter").setup {
       require("formatter.filetypes.python").black
       require("formatter.filetypes.python").autoflake
     }
-      end
-    },
 
     -- Use the special "*" filetype for defining formatter configurations on
     -- any filetype
