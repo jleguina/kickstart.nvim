@@ -71,10 +71,4 @@ return {
       end,
     })
   end,
-
-  opts = {
-    servers = {
-      pyright = {},
-    }
-  },
 }
